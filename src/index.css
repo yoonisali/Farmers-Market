@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.headerStyle {
+  margin-left: 20px;
+  margin-top: 40px;
+  height: 100px;
+  width: 455px;
+  font-size: 15px;
+  border: solid 3px black;
+  text-align: center;
+}
+
+.marketStyle {
+  height: 350px;
+  width: 550px;
+  padding: 10px;
+  border: solid 3px black;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 13px;
+}
+
+.produceStyle {
+  height: 90%;
+  width: 90%;
+  padding: 10px;
+  border: solid 3px black;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 13px;
+}

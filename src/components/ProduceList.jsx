@@ -276,6 +276,7 @@ const availableProduce = [
 function ProduceList() {
     return (
         <React.Fragment>
+            <div className="produceStyle">
             <br></br><h2>Availabe Produce:</h2>
             <ul>
                 {availableProduce.map((produce, index) =>
@@ -289,6 +290,7 @@ function ProduceList() {
                     key={index} /></li>
             )}
             </ul> */}
+            </div>
         </React.Fragment>
     );
 }

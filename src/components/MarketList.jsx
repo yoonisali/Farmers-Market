@@ -43,6 +43,7 @@ const mainMarketList = [
 function MarketList() {
     return (
         <React.Fragment>
+            <div className="marketStyle"> 
             <br></br><h2>Market Schedule:</h2>
             {mainMarketList.map((market, index) =>
                 <Market day={market.day}
@@ -51,6 +52,7 @@ function MarketList() {
                     booth={market.booth}
                     key={index} />
             )}
+            </div>
         </React.Fragment>
     );
 }

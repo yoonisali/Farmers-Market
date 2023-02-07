@@ -5,10 +5,6 @@ function Produce(props) {
     return (
         <React.Fragment>
             <h3>{props.month} | {props.selection} </h3>
-            {/* {props.selection.map((produce, index) => 
-                <Produce selection={produce.selection}
-                        key={index}/>
-            )} */}
         </React.Fragment>
     );
 }
